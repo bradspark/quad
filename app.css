@@ -1,0 +1,18 @@
+/* app css stylesheet */
+
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.group-result {
+    cursor: pointer !important;
+}

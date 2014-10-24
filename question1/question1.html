@@ -1,0 +1,8 @@
+<p>It sounded a lot like chosen so the simplest way to build this would be to use the common jquery plugin with a slight modification</p>
+<div ng-controller="Question1Ctrl">
+<select id="superheroes" chosen multiple
+            ng-model="mySuperhero"
+            ng-options="superhero.name group by superhero.option for superhero in superheroes">
+</select>
+<button ng-click="clearSuperheroes()">Clear</button>
+</div>

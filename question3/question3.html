@@ -1,0 +1,11 @@
+<p>I don’t think I’d ever nest an object that deep with today's programming methodologies, but if I must...</p>
+<pre>
+    function getObj3(obj) {
+        "use strict";
+        if (obj && obj.obj2) {
+            return obj.obj2.obj3;
+        } else {
+            return null;
+        }
+    }
+</pre>
